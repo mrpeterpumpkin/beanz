@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:url(images/citroen01.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+body{
+    
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.logo {
+    color: #fff;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 40px;
+    padding: 7px 0 0 35px;
+    text-transform: uppercase;
+}
+.logo img {
+    max-height: 70px;
+}
+
+.menu {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;    
+    flex: 3;
+    animation: fadeIn 7s;
+}
+.menu ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.menu ul li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;    
+    flex: 1;
+    text-align: center;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* banner */
+.banner {
+    
+}
+
+.banner-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20% 0;
+}
+.banner-text-items {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.banner-text-items h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.banner-text-items p {
+    font-size: 18px;
+}
+
+/* main content */
+
+.main-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 5% 0;    
+}
+.main1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;    
+    flex: 1;
+    padding: 3%;
+    text-align: center;
+}
+.main1 img{
+    max-width: 100%;
+}
+
+/* footer */
+
+.footer{
+    margin: 0px auto 0px auto;
+    display: flex;
+    text-align: center;
+}
+.icon{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+}
+.icon img{
+    width: 20%;
+    
+}
+
+/* Media */
+
+@media all and (max-width: 500px){
+    .top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    }
+    .logo {
+        padding: 18px 0 0;
+    }
+    .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 0;
+    }
+    ,menu ul li {
+        padding: 5px;
+    }
+    .banner-text-items {
+        width: 100%;
+    }
+    .banner-text-items h2 {
+        font-size: 1.5em;
+    }
+    .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+    }
+}
+
+@media all and (max-width: 800px){
+    .top-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    }
+    .logo {
+        padding: 18px 0 0;
+    }
+    .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 0;
+    }
+    ,menu ul li {
+        padding: 5px;
+    }
+    .banner-text-items {
+        width: 100%;
+    }
+    .banner-text-items h2 {
+        font-size: 1.5em;
+    }
+    .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
